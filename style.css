@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Sacramento&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#home {
+    background: linear-gradient(to right bottom, #7ed56f, #28b485);
+    height: 100vh;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 5.7rem;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .3rem;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.card {
+    background-color: #fff;
+    height: 250px;
+    width: 450px;
+    border-radius: 12px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    background-color: #EBEBEB;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.up {
+    text-align: center;
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 20px;
+    color: #2d3436
+}
+
+#quote-author {
+    font-size: 1.6rem;
+    padding-bottom: 40px;
+}
+
+#btn {
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    margin-top: 2.5rem;
+    height: 40px;
+    width: 130px;
+    border-radius: 3px;
+    font-size: 1rem;
+    background: #fff;
+    font-weight: 700;
+    transition: all .2s ease;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+*:focus {
+    outline: none;
+}
+
+#btn:focus {
+    outline: none;
+}
+
+#btn:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #2d3436;
+}
+
+div .down-arrow {
+    transform: translate(-150px, 110px)
+}
+
+.message {
+    text-align: center;
+}
+
+#editor {
+    background: #fff;
+    border: none;
+    border-radius: 30px;
+    transition: all .3s ease;
+    padding: 3rem;
+    color: #2d3436;
+    font-size: 1.7rem;
+    font-family: inherit;
+    width: 800px;
+    height: 300px;
+}
+
+#editor:hover {
+    transform: scale(1.08);
+    background: #2d3436;
+    color: #fff;
+}
+
+::selection {
+    background-color: #fff;
+}
+
+.preview {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#preview {
+    height: 200px;
+    width: 600px;
+    padding: 3rem;
+    border: none;
+    border-radius: 30px;
+    transition: all .3s ease;
+    font-size: 1.7rem;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+#preview:hover {
+    color: #fff;
+    transform: scale(1.03);
+    background: #2d3436;
+}
